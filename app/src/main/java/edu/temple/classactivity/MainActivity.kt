@@ -21,7 +21,9 @@ class MainActivity : AppCompatActivity() {
 
             if (editText.text.isNotEmpty()) {
 
-                textView.text = "Hello, " + EditText.text + "! Welcome"
+                textView.text = "Hello, " + editText.text + "! Welcome"
+
+            }
 
                 else {
 
@@ -34,4 +36,3 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
-}
